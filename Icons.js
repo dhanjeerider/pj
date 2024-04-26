@@ -5,5 +5,14 @@ else if (window.location.href.startsWith("https://dkhek.blogspot.com")) { docume
 else {
 document.getElementById("main").style.display = "none";
 alert("Ask admin to provide the licence for your blog t.me/dhanjeerider");
-}
+};
+
+if (window.location.href.startsWith("https://dkhek.blogspot.com/")) {
+  document.getElementById("main").style.display = "block";
+
+} else {
+document.getElementById("main").style.display = "none";
+  alert("Credit expired.");
+};
+
 
