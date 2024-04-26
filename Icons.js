@@ -1,18 +1,23 @@
-if (window.location.href.startsWith("https://124x.blogspot.com/")) { document.getElementById("main").style.display = "block";
-} 
-else if (window.location.href.startsWith("https://dkhek.blogspot.com")) { document.getElementById("main").style.display = "block";
-} 
-else {
-document.getElementById("main").style.display = "none";
-alert("Ask admin to provide the licence for your blog t.me/dhanjeerider");
-};
+// Array of URLs
+const urls = [
+  "https://dkhek.blogspot.com/",
+  "https://example.com/page1",
+  "https://example.com/page2",
+  "https://anotherexample.com/page1",
+  // Add more URLs as needed
+];
 
-if (window.location.href.startsWith("https://dkhek.blogspot.com/")) {
-  document.getElementById("main").style.display = "block";
+// Iterate over each URL starting from the second one
+for (let i = 1; i < urls.length; i++) {
+  // Alert for each URL except the first one
+  alert("Credit expired for URL: " + urls[i]);
+}
 
+// Apply special treatment to the first URL
+if (urls[0].startsWith("https://dkhek.blogspot.com/")) {
+  // Special treatment here
 } else {
-document.getElementById("main").style.display = "none";
-  alert("Credit expired.");
-};
-
-
+  // Redirect to Google and show alert
+  alert("Credit expired for URL: " + urls[0]);
+  window.location.href = "https://www.google.com";
+}
