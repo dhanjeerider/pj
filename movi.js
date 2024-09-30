@@ -1,6 +1,12 @@
 document.addEventListener('DOMContentLoaded', function() {
     var allowedURLs = [
-        "https://biographyhero.lovestoblog.com"
+        "https://biographyhero.lovestoblog.com",
+        "https://dkflix.000.pe",
+        "https://hdhub4u-wp-theme-dktzn.is-best.net",
+        "https://dktech.000.pe",
+        "https://jet-movie.blogspot.com",
+        "https://1stepno.blogspot.com",
+        "https://actrers-biography.blogspot.com"
     ];
     
     var foundMatch = false;
