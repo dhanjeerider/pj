@@ -35,8 +35,8 @@ document.addEventListener('DOMContentLoaded', function() {
     } else {
         hideSemanticTags();
         alert('You need to verify your domain to use this theme. Please contact support.');
-        document.write(`Your License Is Not Active. Contact <a href="https://telegram.me/dhanjeerider"> DHANJEE Rider </a> To Get License`);  
-    }
+            document.body.innerHTML = 'Your License Is Not Active. Contact <a href="https://telegram.me/dhanjeerider">DHANJEE Rider</a> to get a license';
+            }
 var lazyanalisis=!1;window.addEventListener("scroll",function(){(0!=document.documentElement.scrollTop&&!1===lazyanalisis||0!=document.body.scrollTop&&!1===lazyanalisis)&&(!function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-88SW9D6YBK";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(e,a)}(),lazyanalisis=!0)},!0);
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
