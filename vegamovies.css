@@ -1,0 +1,63 @@
+/*img border */
+.entry-card .wp-post-image,.ct-related-posts .ct-media-container img{border:4px solid; border-image: linear-gradient(90deg,#ca4747,#f4c922) 2;} 
+.ct-trending-block .ct-media-container{border-radius:0px!important; aspect-ratio: 9/14; border: 4px solid; border-image: linear-gradient(90deg,#ff3c00,#ffbf00) 2;} } 
+/*thik border in pc*/
+@media screen and (min-width: 785px) {
+.entry-card .wp-post-image,.ct-media-container img{border: 7px solid; border-image: linear-gradient(90deg,#ff3c00,#ffbf00) 2;  } }
+
+/*label button clrd*/
+.ct-btn{display:flex;gap:7px;
+ justify-content:center;
+flex-wrap:wrap; align-items: center; width:98vw;max-width:1200px; margin-top:16px;}.ct-btn a{font-weight:500;padding: 7px 15px; text-align: center; text-decoration: none; display: inline-block; transition-duration: 0.4s; cursor: pointer; border-radius: 15%; text-transform: uppercase; color: #fff;background: #df133c;font-size:13px;
+box-shadow:0px 0px 32px -10px #fe0000;
+}.topbtn.bollywood { background-color: #44b81a; } 
+.topbtn.desijunx { background-color: red; font-weight: 500; } 
+.topbtn.buttontg { background-color: #009de1; text-transform: uppercase; } 
+.topbtn.howtodl { background-color: #df9a17; text-transform: uppercase; box-shadow:0px 0px 32px -10px #fe0000;} 
+.lora{padding-top:20px;max-width:1150px;margin:auto;}.space{margin:9px auto;}
+@media screen and (max-width: 785px) {.ct-btn a{padding:7px 10px!important; font-size:13px;}}
+	
+/*post button styles just put class name btn-1,2,3,4 in links or btn tag or use wp defult button style may apply automaticly */
+.entry-content img{ display:flex; margin: auto; width: 80%;border-radius: 4px; flex-direction:column; justify-content: center; }
+center a,.db{ background:linear-gradient(135deg,rgb(14,186,195) 0%,rgb(9,210,97) 100%); text-align: center; padding: 10px 20px; color: #fff !important; cursor: pointer; font-family: Poppins, sans-serif; font-size: 17px; font-weight: bold; margin: 10px; min-width: 130px; outline: none; text-transform: uppercase; transition: 0.4s ease-in-out; display: inline-block; text-decoration: none; box-shadow: 0px 4px 9px white; } .db:hover { border-radius:8px; filter: drop-shadow(0px 4px 6px #00d5ff); }.db:focus { outline: 2px dotted red; } .btn1{background:linear-gradient(135deg,#00ffc0,#6500ff);} .btn3{background:linear-gradient(135deg,#ff00f1 0%, cyan 100%);} .btn2{background:linear-gradient(135deg,rgb(237,11,11) 0%,rgb(242,209,82) 100%);}
+
+.entry-content button{padding:8px 10px; margin:4px;border-radius:0px; box-shadow:0px 4px 7px #ccc; font-weight:bold; margin-bottom:10px;background: linear-gradient(135deg, rgb(237, 11, 11) 0%, rgb(242, 209, 82) 100%); color:white;}
+
+.entry-content button:hover{background:cyan;box-shadow:0px 3px 26px cyan; border-radius:6px; transition:.4s; }.emoji{width:16px;font-size:16px;}
+/*footer styles*/
+.footer-menu-inline{padding:8px;border-top:2px solid white;border-bottom:2px solid white;}
+.wp-block-latest-posts li{list-style: square;}.entry-card .entry-meta{text-align: center;}.bt-btn{margin-bottom:22px;}
+/*allrt*/ 
+.alerrt{
+    background: linear-gradient(135deg, #a86e8e, #87610c);
+    margin-bottom: 8px;
+    padding: 8px;
+    color: #fff;
+    margin-right: 5px;
+	margin-left: 5px;}
+.closebtn {
+    margin-left: 15px;
+    float: right;
+    font-size: 24px;
+    line-height: 27px;
+    transition: .3s;
+}
+h2 span,.entry-content strong{font-size:1.1rem!important;}
+[data-pagination=simple] .page-numbers.current, [data-pagination=next_prev] .page-numbers.current{
+    color: #fff;
+    background-color: #c00;
+    background: linear-gradient(to left bottom, #c00 50%, #b80000 50%);
+    background: -webkit-linear-gradient(to left bottom, #c00 50%, #b80000 50%);
+}
+[data-pagination=simple] .page-numbers:not(.dots):hover, [data-pagination=next_prev] .page-numbers:not(.dots):hover{
+	    border-color: rgba(0,0,0,0);
+    color: #fff;
+    background-color: #c00;
+    background: linear-gradient(to left bottom,#c00 50%,#b80000 50%);
+    background: -webkit-linear-gradient(to left bottom,#c00 50%,#b80000 50%);
+    background: -moz-linear-gradient(to left bottom,#c00 50%,#b80000 50%);
+}
+[data-pagination=simple], [data-pagination=next_prev]{ display: flex; justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 12px;}
