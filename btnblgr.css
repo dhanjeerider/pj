@@ -1,38 +1,38 @@
 
 .btn1{
   background: linear-gradient(45deg,cyan,#ff00c7); box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  
+ padding:10px 20px; 
 }
 /*code by dhanjeerider.shop*/
  .btn2{
-   
+ padding:10px 20px;   
 background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
 }
 .btn3{
-    background-color: #FFE53B;
+ padding:10px 20px;    background-color: #FFE53B;
 background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
 box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 .btn4{
-    background-color: #FA8BFF;
+ padding:10px 20px;    background-color: #FA8BFF;
 background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
 box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 .btn5{   
-background: #e8e8e8;color: black;
+padding:10px 20px; background: #e8e8e8;color: black;
  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; 
 }
 .btn5:hover{
     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
 .btn6{
-    background-color: #FF3CAC;
+  padding:10px 20px;   background-color: #FF3CAC;
 background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
 box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;}
 
 .btn7 {
-    background-image: linear-gradient(44deg, #30cfd0 0%, #330867 100%);
+  padding:10px 20px;   background-image: linear-gradient(44deg, #30cfd0 0%, #330867 100%);
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; transition: 1s ease;
 }
 .btn7 :hover{
@@ -40,7 +40,7 @@ box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0p
 transition: 1s ease;   
 }
 .btn8 {
-    background-image: radial-gradient(orange,greenyellow)
+  padding:10px 20px;   background-image: radial-gradient(orange,greenyellow)
 }
 .btn8 :hover{
     box-shadow: greenyellow 0px 0px 0px 3px;
@@ -48,7 +48,7 @@ transition: 1s ease;
     
 }
 .btn9 {
-    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding:10px 20px;   background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   
 /*code by dhanjeerider.shop*/
 } 
@@ -59,7 +59,7 @@ transition: 1s ease;
     box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
 }
 .btn10 {
-    background-image: linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);
+   padding:10px 20px;  background-image: linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);
 }
 .btn10 :hover{
     background: cyan;
@@ -68,53 +68,39 @@ transition: 1s ease;
 
 
 .btn11 {
-    background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
+   padding:10px 20px;  background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
 }
 .btn12 {
-    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+  padding:10px 20px;   background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
 }
 .btn13 {
-    background-image: linear-gradient(to top, greenyellow 0%, green 100%);
+   padding:10px 20px;  background-image: linear-gradient(to top, greenyellow 0%, green 100%);
  box-shadow: 0px 4px 10px #37853f;}
 .btn14 {
-    background-image: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+  padding:10px 20px;   background-image: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
   
 }
 .btn15 {
-    background-image: linear-gradient(-225deg, #FF3CAC 0%, #562B7C 52%, #2B86C5 100%);
+   padding:10px 20px;  background-image: linear-gradient(-225deg, #FF3CAC 0%, #562B7C 52%, #2B86C5 100%);
 }
 .btn16 {
-  background-image: linear-gradient(-225deg, #FF057C 0%, #7C64D5 48%, #4CC3FF 100%);  
+  padding:10px 20px; background-image: linear-gradient(-225deg, #FF057C 0%, #7C64D5 48%, #4CC3FF 100%);  
 }
 .btn17 {
-    background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+   padding:10px 20px;  background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
 }
 
-     .btn18 {background:linear-gradient(135deg,#00ffc0,#6500ff);}
+     .btn18 {padding:10px 20px; background:linear-gradient(135deg,#00ffc0,#6500ff);}
     
     .btn19 {background: crimson;
-    box-shadow:0px 5px 10px #ff5589;}
+   padding:10px 20px;  box-shadow:0px 5px 10px #ff5589;}
 /*code by dhanjeerider.shop*/
     
     
-.btn20 {background:linear-gradient(135deg,rgb(237,11,11) 0%,rgb(242,209,82) 100%);}
-button{
-    padding: 8px 15px;
-    font-size: 15px;
-    border-radius: 5px;
-    color: white;
-    border:0px solid black;
-    margin: 10px;
-    border-radius: 4px;
-    font-weight: bold;
-    text-transform: capitalize;
-    box-shadow: 2px 0px 8px #ccc;
-}
-button :hover{
-    touch-action: manipulation; transition: .4s ease;
-}
+.btn20 {padding:10px 20px; background:linear-gradient(135deg,rgb(237,11,11) 0%,rgb(242,209,82) 100%);}
+
 .btn21 {
- 
+padding:10px 20px; 
  background-color: #008542;
  color: #fff;
  text-shadow: 0 2px 0 rgb(0 0 0 / 25%);
@@ -185,7 +171,7 @@ button :hover{
   background-image: linear-gradient(-180deg, #FF89D6 0%, #C01F9E 100%);
   box-shadow: 0 0.5rem 0.625rem 0 rgba(0,0,0,0.2),
               0 -0.125rem 0.75rem rgba(110, 15, 155, 1) inset,
-              0 0.375rem 0.125rem rgba(255,255,255, 0.4) inset,
+   padding:10px 20px;            0 0.375rem 0.125rem rgba(255,255,255, 0.4) inset,
               0 0.125rem 0.25rem 0 rgba(180, 70, 207, 1) inset;
 }
 
@@ -202,7 +188,7 @@ button :hover{
 
 .btn23 {
   touch-action: manipulation;
-  border: 0;
+padding:10px 20px;   border: 0;
   border-radius: 6px;
   padding: 8px 16px;
   background-color: #5371f4;
@@ -227,7 +213,7 @@ button :hover{
 
 
 .btn24  {
-  color: #fff;
+padding:10px 20px;   color: #fff;
   
   background-color: #38D2D2;
   background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
@@ -247,7 +233,7 @@ button :hover{
 /*code by dhanjeerider.shop*/
 
 .btn25 {
-    background-image: linear-gradient(114.95deg, rgba(235, 0, 255, 0.5) 0%, rgba(0, 71, 255, 0) 34.35%), linear-gradient(180deg, #004B5B 0%, #FFA7A7 100%), linear-gradient(244.35deg, #FFB26A 0%, #3676B1 50.58%, #00A3FF 100%), linear-gradient(244.35deg, #FFFFFF 0%, #004A74 49.48%, #FF0000 100%), radial-gradient(100% 233.99% at 0% 100%, #B70000 0%, #AD00FF 100%), linear-gradient(307.27deg, #1DAC92 0.37%, #2800C6 100%), radial-gradient(100% 140% at 100% 0%, #EAFF6B 0%, #006C7A 57.29%, #2200AA 100%);
+padding:10px 20px;     background-image: linear-gradient(114.95deg, rgba(235, 0, 255, 0.5) 0%, rgba(0, 71, 255, 0) 34.35%), linear-gradient(180deg, #004B5B 0%, #FFA7A7 100%), linear-gradient(244.35deg, #FFB26A 0%, #3676B1 50.58%, #00A3FF 100%), linear-gradient(244.35deg, #FFFFFF 0%, #004A74 49.48%, #FF0000 100%), radial-gradient(100% 233.99% at 0% 100%, #B70000 0%, #AD00FF 100%), linear-gradient(307.27deg, #1DAC92 0.37%, #2800C6 100%), radial-gradient(100% 140% at 100% 0%, #EAFF6B 0%, #006C7A 57.29%, #2200AA 100%);
 background-blend-mode: hard-light, overlay, overlay, overlay, difference, difference, normal;
 
 }
@@ -255,11 +241,11 @@ background-blend-mode: hard-light, overlay, overlay, overlay, difference, differ
 .btn26 {
   background-image: conic-gradient(from 176.21deg at 50% 50%, #000000 -24.66deg, #FFFFFF 0.25deg, #000000 50.63deg, #000000 51.97deg, #FFFFFF 88.12deg, #000000 142.5deg, #FFFFFF 196.87deg, #000000 256.87deg, #FFFFFF 300deg, #000000 335.2deg, #000000 335.34deg, #FFFFFF 360.25deg), conic-gradient(from 176.21deg at 50% 50%, #000000 -24.66deg, #FFFFFF 0.25deg, #000000 50.63deg, #000000 51.97deg, #FFFFFF 88.12deg, #000000 142.5deg, #FFFFFF 196.87deg, #000000 256.87deg, #FFFFFF 300deg, #000000 335.2deg, #000000 335.34deg, #FFFFFF 360.25deg), radial-gradient(95.11% 95.11% at 36.64% 4.89%, #2AD0CA 0%, #E1F664 22.92%, #FEB0FE 46.88%, #ABB3FC 68.23%, #5DF7A4 87.5%, #58C4F6 100%);
 background-blend-mode: screen, difference, normal;
-  color: black;
+padding:10px 20px;   color: black;
 }
 
 .btn27{
-    background-image: radial-gradient(140% 107% at 50% 10%, #000314 37.41%, #6633EE 69.27%, #FFFFFF 100%);    
+padding:10px 20px;     background-image: radial-gradient(140% 107% at 50% 10%, #000314 37.41%, #6633EE 69.27%, #FFFFFF 100%);    
 }
 .btn27 a:hover{
      background-image: radial-gradient(140% 107% at 50% 10%, #000314 7.41%, #6633EE 33.27%, #FFFFFF 100%);
