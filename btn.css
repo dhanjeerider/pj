@@ -1,116 +1,100 @@
-.btn1{
+.btn1 a{
   background: linear-gradient(45deg,cyan,#ff00c7); box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   
 }
-.btn2{
+.btn2 a{
    
 background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
 }
-.btn3{
+.btn3 a{
     background-color: #FFE53B;
 background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
 box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
-.btn4{
+.btn4 a{
     background-color: #FA8BFF;
 background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
 box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
-.btn5{   
+.btn5 a{   
 background: #e8e8e8;color: black;
  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; 
 }
-.btn5:hover{
+.btn5 a:hover{
     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
-.btn6{
+.btn6 a{
     background-color: #FF3CAC;
 background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
 box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;}
 
-.btn7{
+.btn7 a{
     background-image: linear-gradient(44deg, #30cfd0 0%, #330867 100%);
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; transition: 1s ease;
 }
-.btn7:hover{
+.btn7 a:hover{
    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
 transition: 1s ease;   
 }
-.btn8{
+.btn8 a{
     background-image: radial-gradient(orange,greenyellow)
 }
-.btn8:hover{
+.btn8 a:hover{
     box-shadow: greenyellow 0px 0px 0px 3px;
     transition: .3s ease;
     
 }
-.btn9{
+.btn9 a{
     background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   
 }
-.btn9:hover{
+.btn9 a:hover{
     filter: saturate(4);
     transform: translateY(-7px);
     transition: .6s ease-out;
     box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
 }
-.btn10{
+.btn10 a{
     background-image: linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);
 }
-.btn10:hover{
+.btn10 a:hover{
     background: cyan;
     box-shadow: 4px 6px 15px cyan;
 }
 
 
-.btn11{
+.btn11 a{
     background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
 }
-.btn12{
+.btn12 a{
     background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
 }
-.btn13{
+.btn13 a{
     background-image: linear-gradient(to top, greenyellow 0%, green 100%);
  box-shadow: 0px 4px 10px #37853f;}
-.btn14{
+.btn14 a{
     background-image: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
   
 }
-.btn15{
+.btn15 a{
     background-image: linear-gradient(-225deg, #FF3CAC 0%, #562B7C 52%, #2B86C5 100%);
 }
-.btn16{
+.btn16 a{
   background-image: linear-gradient(-225deg, #FF057C 0%, #7C64D5 48%, #4CC3FF 100%);  
 }
-.btn17{
+.btn17 a{
     background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
 }
 
-     .btn18{background:linear-gradient(135deg,#00ffc0,#6500ff);}
+     .btn18 a{background:linear-gradient(135deg,#00ffc0,#6500ff);}
     
-    .btn19{background: crimson;
+    .btn19 a{background: crimson;
     box-shadow:0px 5px 10px #ff5589;}
     
     
-.btn20{background:linear-gradient(135deg,rgb(237,11,11) 0%,rgb(242,209,82) 100%);}
-button{
-    padding: 8px 15px;
-    font-size: 15px;
-    border-radius: 5px;
-    color: white;
-    border:0px solid black;
-    margin: 10px;
-    border-radius: 4px;
-    font-weight: bold;
-    text-transform: capitalize;
-    box-shadow: 2px 0px 8px #ccc;
-}
-button:hover{
-    touch-action: manipulation; transition: .4s ease;
-}
-.btn21 {
- 
+.btn20 a{background:linear-gradient(135deg,rgb(237,11,11) 0%,rgb(242,209,82) 100%);}
+.btn21 a{
  background-color: #008542;
  color: #fff;
  text-shadow: 0 2px 0 rgb(0 0 0 / 25%);
@@ -130,7 +114,7 @@ button:hover{
  transition: all 0.7s cubic-bezier(0,.8,.26,.99);
 }
 
-.btn21:before {
+.btn21 a:before {
  position: absolute;
  pointer-events: none;
  top: 0;
@@ -145,7 +129,7 @@ button:hover{
  box-shadow: 0 -4px rgb(21 108 0 / 50%) inset, 0 4px rgb(100 253 31 / 99%) inset, -4px 0 rgb(100 253 31 / 50%) inset, 4px 0 rgb(21 108 0 / 50%) inset;
 }
 
-.btn21:after {
+.btn21 a:after {
  position: absolute;
  pointer-events: none;
  top: 0;
@@ -158,23 +142,23 @@ button:hover{
  transition: .7s cubic-bezier(0,.8,.26,.99);
 }
 
-.btn21:hover:before {
+.btn21 a:hover:before {
  box-shadow: 0 -4px rgb(0 0 0 / 50%) inset, 0 4px rgb(255 255 255 / 20%) inset, -4px 0 rgb(255 255 255 / 20%) inset, 4px 0 rgb(0 0 0 / 50%) inset;
 }
 
-.btn21:hover:after {
+.btn21 a:hover:after {
  box-shadow: 0 4px 0 0 rgb(0 0 0 / 15%);
 }
 
-.btn21:active {
+.btn21 a:active {
  transform: translateY(4px);
 }
 
-.btn21:active:after {
+.btn21 a:active:after {
  box-shadow: 0 0px 0 0 rgb(0 0 0 / 15%);
 }
 
-.btn22 {
+.btn22 a {
   touch-action: manipulation;
   transition: all 150ms ease-in-out; 
   background-image: linear-gradient(-180deg, #FF89D6 0%, #C01F9E 100%);
@@ -186,16 +170,16 @@ button:hover{
 
 
 
-.btn22:hover {
+.btn22 a:hover {
   filter: brightness(1.1);
 }
 
-.btn22:active {
+.btn22 a:active {
   transform: scale(.96);
 }
 
 
-.btn23 {
+.btn23 a{
   touch-action: manipulation;
   border: 0;
   border-radius: 6px;
@@ -213,14 +197,14 @@ button:hover{
   transition-duration: 0.2s;
 }
 
-.btn23:active {
+.btn23 a:active {
   transform: scale(0.96);
   background-size: 90px;
 }
 
 
 
-.btn24 {
+.btn24 a {
   color: #fff;
   
   background-color: #38D2D2;
@@ -231,30 +215,30 @@ button:hover{
   transition: all 150ms ease-in-out;
 }
 
-.btn24:hover {
+.btn24 a:hover {
   filter: brightness(1.05);
 }
 
-.btn24:active {
+.btn24 a:active {
   transform: scale(.95);
 }
 
-.btn25{
+.btn25 a{
     background-image: linear-gradient(114.95deg, rgba(235, 0, 255, 0.5) 0%, rgba(0, 71, 255, 0) 34.35%), linear-gradient(180deg, #004B5B 0%, #FFA7A7 100%), linear-gradient(244.35deg, #FFB26A 0%, #3676B1 50.58%, #00A3FF 100%), linear-gradient(244.35deg, #FFFFFF 0%, #004A74 49.48%, #FF0000 100%), radial-gradient(100% 233.99% at 0% 100%, #B70000 0%, #AD00FF 100%), linear-gradient(307.27deg, #1DAC92 0.37%, #2800C6 100%), radial-gradient(100% 140% at 100% 0%, #EAFF6B 0%, #006C7A 57.29%, #2200AA 100%);
 background-blend-mode: hard-light, overlay, overlay, overlay, difference, difference, normal;
 
 }
 
-.btn26{
+.btn26 a{
   background-image: conic-gradient(from 176.21deg at 50% 50%, #000000 -24.66deg, #FFFFFF 0.25deg, #000000 50.63deg, #000000 51.97deg, #FFFFFF 88.12deg, #000000 142.5deg, #FFFFFF 196.87deg, #000000 256.87deg, #FFFFFF 300deg, #000000 335.2deg, #000000 335.34deg, #FFFFFF 360.25deg), conic-gradient(from 176.21deg at 50% 50%, #000000 -24.66deg, #FFFFFF 0.25deg, #000000 50.63deg, #000000 51.97deg, #FFFFFF 88.12deg, #000000 142.5deg, #FFFFFF 196.87deg, #000000 256.87deg, #FFFFFF 300deg, #000000 335.2deg, #000000 335.34deg, #FFFFFF 360.25deg), radial-gradient(95.11% 95.11% at 36.64% 4.89%, #2AD0CA 0%, #E1F664 22.92%, #FEB0FE 46.88%, #ABB3FC 68.23%, #5DF7A4 87.5%, #58C4F6 100%);
 background-blend-mode: screen, difference, normal;
   color: black;
 }
 
-.btn27{
+.btn27 a{
     background-image: radial-gradient(140% 107% at 50% 10%, #000314 37.41%, #6633EE 69.27%, #FFFFFF 100%);    
 }
-.btn27:hover{
+.btn27 a:hover{
      background-image: radial-gradient(140% 107% at 50% 10%, #000314 7.41%, #6633EE 33.27%, #FFFFFF 100%);
      box-shadow: 0px 5px 10px gray;
 }
