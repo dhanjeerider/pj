@@ -242,3 +242,11 @@ background-blend-mode: screen, difference, normal;
      background-image: radial-gradient(140% 107% at 50% 10%, #000314 7.41%, #6633EE 33.27%, #FFFFFF 100%);
      box-shadow: 0px 5px 10px gray;
 }
+.vega,.btn31{background:linear-gradient(135deg,#0ebac3,#09d261);box-shadow: 0px 5px 15px -3px #ccc;font-size: 15px;font-weight: bold;
+}
+
+.vega2,.btn29{background:linear-gradient(135deg,#ed0b0b,#f2d152); color: white;
+box-shadow: 0px 5px 15px -3px #ccc;font-size: 15px;font-weight: bold;
+}
+.vega3,.btn30{background: linear-gradient(135deg,#2ea1cf,#ff19d0); color: #fdf8f2;box-shadow: 0px 5px 15px -3px #ccc;font-size: 15px;font-weight: bold;
+}
