@@ -728,7 +728,6 @@ widget-control .LinkList ul li {
   display: none;
 }
 
-
 #MenuNews-pro-container {
   background: #002765;
   background: -moz-linear-gradient(90deg, #002765 0, #002765 100%);
@@ -738,9 +737,6 @@ widget-control .LinkList ul li {
   box-shadow: 3px 0 7px rgba(0, 0, 0, 0.1);
   transition: all .2s cubic-bezier(.79, .14, .15, .86);
 }
-
-
-
 .sidebar .widget-title h3,
 .pixy-box .widget>.widget-title h3,
 .related-post .widget-title h3,
