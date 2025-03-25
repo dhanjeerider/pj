@@ -742,29 +742,6 @@ button {
   background: transparent;
   padding: 1px 5px 1px 0px;
 }
-
-
-@media (max-width: 899px) {
-  .headerHero1 {
-    display: none;
-  }
-
-  #xxqo-menuaflex-list>li>a {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background: #fff;
-    box-shadow: -1px 3px 3px 0 rgb(0 0 0 / 0.06);
-    height: 50px;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 50px;
-    padding: 0 12px;
-    margin: 4px;
-    color: #000;
-  }
-}
-
-
 .sub-menu li {
   list-style: none;
 }
@@ -821,22 +798,10 @@ widget-control .LinkList ul li {
   max-height: 100%;
   margin: 0;
   padding: 0px 0px 0px 8px;
-  padding-top: 4px;
+  padding-top: 8px;
 }
 
 
-@media (min-width: 900px) {
-
-  #xxqo-menuaflex-list>li>a,
-  #xxqo-menuaflexMenu-pro ul>li>ul>li a,
-  #xxqo-menuaflexMenu-pro ul>li>ul>li a {
-    color: #fff;
-  }
-
-  .mbllogo {
-    display: none;
-  }
-}
 
 .social-button.share:hover {
   background-color: #333;
