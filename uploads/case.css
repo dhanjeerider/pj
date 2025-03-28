@@ -1,0 +1,33 @@
+
+ .collapse,.navbar-collapse{transition:1.3s all ease;}
+    .dark-mode body{
+ background: linear-gradient(135deg,#25003a,#000d32,#25003a);background-attachment: fixed;}
+  
+ .dark-mode #header-main{  
+     background: rgb(0,0,0,.55);
+     }                
+ .entry-meta .me-3{color:var(--jt-heading-color);} 
+  #main{display:block!important;}
+    
+   #mainbx{background: transparent;} .dhanjeerdr{color:var(--hero-color);text-align:center;margin:0 0 30px} .dhanjeerdr h1{display:block;font-size:35px;font-weight:700;margin:0 0 13px} .dhanjeerdr p{display:block;font-size:16px;color:var(--hero-text-color);margin:0} .hero-search{text-align:center;margin:0 0 13px} .hero-search .search-form{display:inline-block;position:relative;width:480px;max-width:100%;height:50px;border:0} .hero-search .search-input{float:left;width:100%;height:50px;background-color: var(--transparent-bg);
+
+overflow:hidden;font-size:14px;color:#95a5a6;font-family:inherit;font-weight:400;line-height:51px;padding:0 20px;border:1px solid black;border-radius:4px} .hero-search .search-input::placeholder{color:var(--title-color);opacity:.55} .hero-search .search-input:focus{box-shadow:0 2px 8px rgba(0,0,0,0.1)} .hero-search .search-button{position:absolute;top:0;right:0;height:50px;background-color:transparent;overflow:hidden;font-size:14px;color:#95a5a6;text-align:center;line-height:51px;cursor:pointer;opacity:.85;padding:0 20px;border:0;border-radius:0 6px 6px 0} .hero-search .search-button:hover{background-color:rgba(155,155,155,0.1)} .hero-tags{float:left;width:100%;font-size:14px;color:var(--hero-color);text-align:center;margin:0 0 10px} .hero-tags span,.hero-tags a{display:inline-block text-decoration:none;} .hero-tags a{color:var(--hero-text-color);margin:0 0 0 10px} .hero-tags a:hover{color:var(--hero-color)} .hero-promo{float:left;width:100%;font-size:21px;color:var(--hero-text-color);text-align:center;padding:40px 0 0;margin:20px 0 0;border-top:1px solid rgba(255,255,255,0.15)} .hero-promo a{color:var(--hero-color);font-weight:700;margin:0} .hero-promo a:hover{color:var(--hero-text-color)} @media screen and (max-width: 1030px) { .rown{width:100%;max-width:100%;margin:0} .cntne{padding:0 15px}} @media screen and (max-width: 640px){ .dhanjeerdr h1 { font-size: 31px;}} 
+  #alrt .widget-title{display:none;}
+   table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow-x: auto;
+    display: block; 
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    white-space: nowrap; }
+
+th {
+    
+    font-weight: bold;
+}
+ 
