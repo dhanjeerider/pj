@@ -134,7 +134,7 @@ if (document.querySelectorAll("div.pre.cdBox").length > 0) {
         let fileName = l.dataset.file || "code.txt";
         let content = l.querySelector("pre").innerText;
 
-        l.insertAdjacentHTML("afterbegin", "<div class='preM'><div class='preT'><span class='prTl'>" + (l.dataset.text || "Code") + "</span><span class='prCd'></span></div><div class='preA'><button class='prCp'>❐</button><button class='prDl'>⤋</button></div></div>");
+        l.insertAdjacentHTML("afterbegin", "<div translate='no' class='preM'><div class='preT'><span class='prTl'>" + (l.dataset.text || "Code") + "</span><span class='prCd'></span></div><div class='preA'><button class='prCp' are-label='copy'>❐</button><button are-label='download' class='prDl'>⤋</button></div></div>");
         
         l.querySelector(".prCp").addEventListener("click", function() {
             copyToClipboard(l.querySelector("pre"));
