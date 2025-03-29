@@ -5,7 +5,16 @@ codeElements.forEach(function(element) {
         copyToClipboard(element);
     });
 });
-
+var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos &gt; currentScrollPos) {
+      document.getElementById(&quot;ATnav&quot;).style.bottom = &quot;10px&quot;;
+    } else {
+      document.getElementById(&quot;ATnav&quot;).style.bottom = &quot;-80px&quot;;
+    }
+    prevScrollpos = currentScrollPos;
+  };
 function copyToClipboard(element) {
     var tempTextArea = document.createElement("textarea");
     tempTextArea.value = element.textContent;
