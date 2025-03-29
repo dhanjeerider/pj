@@ -6,17 +6,6 @@ codeElements.forEach(function(element) {
     });
 });
 
-  var prevScrollpos = window.pageYOffset;
-  window.onscroll = function() {
-    var currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > currentScrollPos) {
-      document.getElementById("ATnav").style.bottom = "10px";
-    } else {
-      document.getElementById("ATnav").style.bottom = "-80px";
-    }
-    prevScrollpos = currentScrollPos;
-  };
-
 function copyToClipboard(element) {
     var tempTextArea = document.createElement("textarea");
     tempTextArea.value = element.textContent;
@@ -145,7 +134,7 @@ if (document.querySelectorAll("div.pre.cdBox").length > 0) {
         let fileName = l.dataset.file || "code.txt";
         let content = l.querySelector("pre").innerText;
 
-        l.insertAdjacentHTML("afterbegin", "<div class='preM'><div class='preT'><span class='prTl'>" + (l.dataset.text || "Code") + "</span><span class='prCd'></span></div><div class='preA'><button class='prCp'><i class="fa-light fa-copy"></i></button><button class='prDl'><i class="fa-light fa-download"></i></button></div></div>");
+        l.insertAdjacentHTML("afterbegin", "<div class='preM'><div class='preT'><span class='prTl'>" + (l.dataset.text || "Code") + "</span><span class='prCd'></span></div><div class='preA'><button class='prCp'>Copy</button><button class='prDl'>Download</button></div></div>");
         
         l.querySelector(".prCp").addEventListener("click", function() {
             copyToClipboard(l.querySelector("pre"));
