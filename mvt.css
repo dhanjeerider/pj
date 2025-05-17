@@ -24,8 +24,7 @@
 }
 
 /* Movie Info Widget */
-.movie-widget {
-  background: rgba(24,26,34,0.7);
+.black-card{background:#333;color:#fff;
   border-radius: 14px;
   padding: 28px 24px 18px 24px;
   box-shadow: 0 2px 16px rgba(0,0,0,0.15);
