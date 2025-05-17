@@ -20,6 +20,7 @@
   border-radius: 14px;
   box-shadow: 0 6px 24px rgba(0,0,0,0.7);
   border: 5px solid #fff2;
+  z-index:676;
 }
 
 /* Movie Info Widget */
