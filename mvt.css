@@ -105,7 +105,7 @@ hr {
   .movie-widget { margin-left: 0; margin-top: 0; }
   .poster { position: absolute; display: block; margin: -44px auto 18px auto; 
         left: 0;
-        bottom: -24px;
+        bottom: -54px;
 }
 @media (max-width: 500px) {
   .movie-title { font-size: 1.2rem; }
@@ -115,7 +115,13 @@ hr {
 
 /* Trailer Responsive */
 iframe { border-radius: 12px; }
-
+.dbtn5 {background: linear-gradient(135deg, #ff7e5f, #feb47b);}
+.dbtn6 {background: linear-gradient(135deg, #43cea2, #185a9d);}
+.dbtn7 {background: linear-gradient(135deg, #f7971e, #ffd200);}
+.dbtn8 {background: linear-gradient(135deg, #6a11cb, #2575fc);}
+.dbtn9 {background: linear-gradient(135deg, #f953c6, #b91d73);}
+.dbtn10 {background: linear-gradient(135deg, #00c6ff, #0072ff);}
+  
 /* Extra */
 ::-webkit-scrollbar { width: 8px; background: #222; }
 ::-webkit-scrollbar-thumb { background: #7c4dff; border-radius: 8px; }
