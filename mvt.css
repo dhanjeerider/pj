@@ -36,11 +36,7 @@
   margin-bottom: 8px;
   letter-spacing: 1px;
 }
-.movie-summary {
-  margin: 3px 0;
-  font-size: 1.03rem;
-  color: #e0e0e0;
-}
+.movie-summary { margin: 3px 0;  Margin-top:8px; padding-left:11px;}
 .imdb-rating-link {
   color: #ffb300 !important;
   font-weight: bold;
