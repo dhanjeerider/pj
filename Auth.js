@@ -1,5 +1,1 @@
-if (window.location.href.startsWith("https://www.ngtrick.xyz/")) {
-    setTimeout(function() {
-      window.location.href = "https://www.dktechnozone.in/";
-    }, 20);
-}
+const TMDB_API_KEY = "7bffed716d50c95ed1c4790cfab4866a";
