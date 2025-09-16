@@ -1,0 +1,24 @@
+{
+  "name": "Readymade Designs - WB Themes",
+  "short_name": "WB Themes",
+  "description": "welcome to Wb(Wordpress blogger) theme shop where u can get profesional and beautiful and redesigned themes for your blog and websites with direct theme file",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#6a1b9a",
+  "icons": [
+    {
+      "src": "https://wbthemes.com/wp-content/uploads/2025/08/cropped-file_00000000e310622f8af5db78fac348ed-1-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://wbthemes.com/wp-content/uploads/2025/08/cropped-file_00000000e310622f8af5db78fac348ed-1-192x192.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
