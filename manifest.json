@@ -11,7 +11,7 @@
   "display": "standalone",
   "prefer_related_applications": false,
   "background_color": "#000000",
-  "theme_color": "#000000",
+  "theme_color": "#9500ff",
   "icons": [
     {
       "src": "https://i.ibb.co/N2Pznrjv/cea92dc03152.png",
@@ -106,19 +106,25 @@
   ],
   "screenshots": [
     {
-      "src": "https://i.ibb.co/wF6GTDKN/b70b1bd50cd5.jpg",
-      "type": "image/png",
-      "sizes": "1079x2155",
-      "form_factor": "narrow"
-    },
-    {
-      "src": "https://i.ibb.co/5XFKsc8R/0c6f7cb7fcf7.jpg",
+      "src": "https://i.ibb.co/7Nz5prNv/6c7113e9ffdf.jpg",
       "type": "image/png",
       "sizes": "1080x2400",
       "form_factor": "narrow"
     },
     {
-      "src": "https://i.ibb.co/PZL8Fhh0/bfde955e360d.jpg",
+      "src": "https://i.ibb.co/Xx8LqHBv/c31273245d0d.jpg",
+      "type": "image/png",
+      "sizes": "1080x2400",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "https://i.ibb.co/mjsBz94/78e879132925.jpg",
+      "type": "image/png",
+      "sizes": "1080x2400",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "https://i.ibb.co/QjxB0Pgm/eba2d5244b3f.jpg",
       "type": "image/png",
       "sizes": "1080x2400",
       "form_factor": "narrow"
@@ -126,9 +132,9 @@
   ],
   "shortcuts": [
     {
-      "name": "WordPress ",
-      "short_name": "Theme ",
-      "description": "Sho movie theme ",
+      "name": "Wp movie theme",
+      "short_name": "Wp Movie Theme ",
+      "description": "Shop movie theme ",
       "url": "https://wbthemes.com/product-category/wp-movie-themes/",
       "icons": [
         {
